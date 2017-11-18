@@ -11,7 +11,7 @@
 
     //Font my app
     <style name="MyFonts">
-        <item name="fontPath">fonts/junegull rg.ttf</item>
+        <item name="fontPath">fonts/SHOWG.TTF</item>
     </style>
 
 </resources>

@@ -25,7 +25,6 @@
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center"
-        android:paddingTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -33,6 +32,7 @@
             android:id="@+id/ImageSlogan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="50dp"
             android:layout_gravity="center"
             android:src="@drawable/slogan" />
 
@@ -43,8 +43,8 @@
             android:gravity="center"
             android:text="@string/slogan"
             android:textColor="@android:color/white"
+            android:textSize="16dp"
             android:textAppearance="@style/MyFonts"
-            android:textSize="36dp"
             />
 
 
