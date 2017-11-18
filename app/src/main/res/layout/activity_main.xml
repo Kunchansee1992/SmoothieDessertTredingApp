@@ -7,6 +7,51 @@
     android:background="@drawable/background"
     tools:context="com.example.ou.smoothiedesserttredingapp.MainActivity">
 
+    <LinearLayout
+        android:gravity="center"
+        android:paddingBottom="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <ImageView
+           android:id="@+id/logo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:src="@drawable/logo2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImageSlogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/slogan" />
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/MyFonts"
+            android:textSize="16dp"
+            />
+
+
+    </LinearLayout>
+
+
+
 
 
 </RelativeLayout>
