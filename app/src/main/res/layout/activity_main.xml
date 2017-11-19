@@ -61,7 +61,7 @@
 
 
         <Button
-            android:id="@+id/btSignIn"
+            android:id="@+id/btLogIn"
             android:layout_margin="8dp"
             android:layout_width="wrap_content"
             android:layout_weight="1"

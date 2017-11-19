@@ -4,4 +4,7 @@
     <string name="btSignIn">เข้าสู่ระบบ</string>
     <string name="btRegister">ลงทะเบียน</string>
     <string name="txtSkip">ข้ามเข้าสู่ระบบ</string>
+    <string name="LogIn">เข้าสู่ระบบ</string>
+    <string name="Register">สมัครสมาชิก</string>
+    <string name="Usernam">ชื่อผู้ใช้งาน</string>
 </resources>
