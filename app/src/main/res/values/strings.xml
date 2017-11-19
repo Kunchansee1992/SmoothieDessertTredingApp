@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Smoothie &amp; Dessert Treding App</string>
     <string name="slogan">Taste you never touch before</string>
+    <string name="btSignIn">เข้าสู่ระบบ</string>
+    <string name="btRegister">ลงทะเบียน</string>
+    <string name="txtSkip">ข้ามเข้าสู่ระบบ</string>
 </resources>

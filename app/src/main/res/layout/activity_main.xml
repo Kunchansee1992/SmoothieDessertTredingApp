@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:gravity="center"
-        android:paddingBottom="250dp"
+        android:paddingBottom="320dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -32,7 +32,6 @@
             android:id="@+id/ImageSlogan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="50dp"
             android:layout_gravity="center"
             android:src="@drawable/slogan" />
 
@@ -40,14 +39,67 @@
             android:id="@+id/txtSlogan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="0dp"
             android:gravity="center"
             android:text="@string/slogan"
             android:textColor="@android:color/white"
-            android:textSize="16dp"
-            android:textAppearance="@style/MyFonts"
+            android:textSize="10dp"
+
             />
 
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="250dp"
+        android:layout_centerInParent="true"
+        android:weightSum="2"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btSignIn"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/btSignIn"/>
+
+        <Button
+            android:id="@+id/btRegister"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/btRegister"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="หรือ"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/txtSkip"
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/txtSkip"
+            android:textColor="@android:color/white"
+            />
     </LinearLayout>
 
 

@@ -6,12 +6,14 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/MyFonts</item>
     </style>
 
-
-    //Font my app
-    <style name="MyFonts">
+    <!-- Font my app. -->
+    <style name="MyFonts" parent="android:Widget.TextView">
         <item name="fontPath">fonts/SHOWG.TTF</item>
     </style>
+
+
 
 </resources>
