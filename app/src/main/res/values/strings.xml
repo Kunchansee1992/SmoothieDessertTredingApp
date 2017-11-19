@@ -7,4 +7,12 @@
     <string name="LogIn">เข้าสู่ระบบ</string>
     <string name="Register">สมัครสมาชิก</string>
     <string name="Usernam">ชื่อผู้ใช้งาน</string>
+    <string name="Firstname">ชื่อ</string>
+    <string name="Lastname">นามสกุล</string>
+    <string name="email">อีเมล์</string>
+    <string name="Phonenumber">หมายเลขโทรศัพท์</string>
+    <string name="SetuserName">ชื่อผู้ใช้งาน (อย่างน้อย 6 ตัว)</string>
+    <string name="SetPassword">รหัสผ่าน (อย่างน้อย 8 ตัว)</string>
+    <string name="CommitPassword">ยืนยันรหัสผ่าน</string>
+
 </resources>

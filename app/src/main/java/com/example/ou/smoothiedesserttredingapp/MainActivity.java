@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView txtSlogan;
-    Button logIn;
+    Button logIn , register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent login = new Intent(MainActivity.this,LogIn.class);
                 startActivity(login);
+            }
+        });
+
+        //button register
+        register = (Button) findViewById(R.id.btRegister);
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent register = new Intent(MainActivity.this,Register.class);
+                startActivity(register);
             }
         });
     }
